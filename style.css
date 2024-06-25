@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+   
+   scroll-behavior: smooth;
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+   
+}
+@font-face {
+    font-family: a;
+    src: url(./Jost-Light.ttf);
+}
+@font-face {
+    font-family: b;
+    src: url(./Jost-SemiBoldItalic.ttf);
+}
+
+
+
+#class1{
+    height: 10vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    color: white;
+    
+    position: absolute;
+    top: 30vh;
+    left: 12vw;
+    font-family: a;
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+#class2{
+    height: 10vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    color: white;
+  
+    position: absolute;
+    top: 40vh;
+    left: 12vw;
+    font-size: 5vw;
+}
+#class3{
+    height: 10vh;
+    width: 50%;
+    display: flex;
+    
+    align-items: start;
+    
+    color: white;
+   gap: 10px;
+    position: absolute;
+    top: 50vh;
+    left: 12vw;
+    font-size: 2vw;
+   
+}
+#typing{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 2vw;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #A18AF2;
+    
+}
+#LINKDIN{
+    height: 5vh;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: royalblue;
+    position: absolute;
+    top: 60vh;
+    left: 12vw;
+    border-color: rgb(88, 110, 231);
+   border-radius: 20px ;
+   cursor: pointer;
+}
+#RESUME{
+    height: 5vh;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(248, 46, 83);
+    position: absolute;
+    top: 60vh;
+    left: 23vw;
+    border-color: rgb(249, 84, 84);
+   border-radius: 20px ;
+   cursor: pointer;
+
+}
+#RESUME.clicked {
+ background-color: royalblue;
+}
+#LINKDIN.clicked {
+    background-color: royalblue;
+ }
+#main1{
+height: 100vh;
+width: 100vw;
+
+display: flex;
+justify-content: center;
+padding-top: 10vw;
+
+
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 60%;
+    height: 40%;
+font-family: a;
+font-weight: 100;
+font-size: 1.1vw;
+background-color: rgba(255, 255, 255, 0.279);
+backdrop-filter: blur(50px);
+background: transparent;
+border: 1px solid;
+border-color: white;
+
+    color: white;
+   border-radius: 8px;
+align-items: center;  
+}
+#about>h4{
+    padding: 1vh 1vw;
+ 
+
+}
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+   padding-top: 2vw;
+}
+#CONTENT{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 40%;
+    height: 50%;
+font-family: a;
+font-weight: 100;
+font-size: 1.1vw;
+background-color: rgba(255, 255, 255, 0.279);
+backdrop-filter: blur(50px);
+background: transparent;
+border: 1px solid;
+border-color: white;
+
+    color: white;
+   border-radius: 8px;
+align-items: center;  
+}
+#CONTENT>h4{
+    padding: 1vh 1vw;
+ 
+
+}
+#bottom{
+    color:white;
+    font-family: a;
+    font-weight: 100;
+    font-size: 2VW;
+    display: flex;
+   
+    align-items:start;
+    margin-top: 7VW;
+    margin-left: 8VW;
+
+}
